@@ -21,9 +21,9 @@ public class FrameActivity extends AppCompatActivity {
                 finish();
             }
         });
-        ActionBar actionBar = getSupportActionBar();
-        if (actionBar != null) {
-            actionBar.hide(); //隐藏标题栏
-        }
+//        ActionBar actionBar = getSupportActionBar();
+//        if (actionBar != null) {
+//            actionBar.hide(); //隐藏标题栏
+//        }
     }
 }

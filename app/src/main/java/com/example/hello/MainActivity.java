@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ActionBar actionBar = getSupportActionBar();
-        if (actionBar != null) {
-            actionBar.hide(); //隐藏标题栏
-        }
+//        ActionBar actionBar = getSupportActionBar();
+//        if (actionBar != null) {
+//            actionBar.hide(); //隐藏标题栏
+//        }
     }
 
 }
