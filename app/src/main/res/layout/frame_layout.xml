@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/android_practice"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        >
+    </TextView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:textAllCaps="false">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="#D2D7DC"
+            android:text="@string/button1"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="#D2D7DC"
+            android:text="@string/button2"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="#D2D7DC"
+            android:text="@string/button3"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="#D2D7DC"
+            android:text="@string/button4"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="#D2D7DC"
+            android:text="@string/button5"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="#D2D7DC"
+            android:text="@string/button6"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="#D2D7DC"
+            android:text="@string/button7"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="#D2D7DC"
+            android:text="@string/button8"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="#D2D7DC"
+            android:text="@string/button9"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="#D2D7DC"
+            android:text="@string/button10"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+</FrameLayout>
+
+
