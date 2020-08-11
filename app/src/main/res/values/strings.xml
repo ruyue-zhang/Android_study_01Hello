@@ -14,4 +14,6 @@
     <string name="frame_layout">frame_layout</string>
     <string name="main_activity">main_activity</string>
     <string name="constrain_layout">constraint_layout</string>
+    <string name="Login">login</string>
+    <string name="signUp">signUp</string>
 </resources>
