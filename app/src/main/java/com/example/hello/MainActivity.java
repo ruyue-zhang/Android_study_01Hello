@@ -27,6 +27,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button constraintLayout = findViewById(R.id.button1);
+        constraintLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ConstrainActivity.class);
+                startActivity(intent);
+            }
+        });
+
 //        ActionBar actionBar = getSupportActionBar();
 //        if (actionBar != null) {
 //            actionBar.hide(); //隐藏标题栏

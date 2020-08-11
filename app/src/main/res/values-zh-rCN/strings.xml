@@ -14,4 +14,5 @@
     <string name="android_practice">Android 练习</string>
     <string name="frame_layout">FrameLayout 布局</string>
     <string name="main_activity">主页</string>
+    <string name="constrain_layout">constraint_layout</string>
 </resources>
