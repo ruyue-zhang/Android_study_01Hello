@@ -6,10 +6,11 @@
     <string name="button4">button4</string>
     <string name="button5">button5</string>
     <string name="button6">button6</string>
-    <string name="button7">buttton7</string>
+    <string name="button7">button7</string>
     <string name="button8">button8</string>
     <string name="button9">button9</string>
     <string name="button10">button10</string>
     <string name="android_practice">Android practice</string>
     <string name="frame_layout">frame_layout</string>
+    <string name="main_activity">main_activity</string>
 </resources>

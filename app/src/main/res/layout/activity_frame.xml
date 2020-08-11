@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".FrameActivity">
 
     <TextView
         android:layout_width="300dp"
@@ -24,12 +26,13 @@
             android:textAllCaps="false">
 
             <Button
+                android:id="@+id/button11"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="#D2D7DC"
-                android:text="@string/button1"
+                android:text="@string/main_activity"
                 android:textAllCaps="false" />
 
             <Button
@@ -54,7 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:background="#D2D7DC"
                 android:text="@string/button4"
                 android:textAllCaps="false" />
@@ -63,7 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:background="#D2D7DC"
                 android:text="@string/button5"
                 android:textAllCaps="false" />
@@ -81,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:background="#D2D7DC"
                 android:text="@string/button7"
                 android:textAllCaps="false" />
@@ -90,7 +93,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:background="#D2D7DC"
                 android:text="@string/button8"
                 android:textAllCaps="false" />
@@ -99,7 +102,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:background="#D2D7DC"
                 android:text="@string/button9"
                 android:textAllCaps="false" />
@@ -108,12 +111,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:background="#D2D7DC"
                 android:text="@string/button10"
                 android:textAllCaps="false" />
         </LinearLayout>
     </ScrollView>
+
 </FrameLayout>
-
-

@@ -3,34 +3,27 @@ package com.example.hello;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class FrameActivity extends AppCompatActivity {
 
-    public static final String TAG = "MainActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Log.d(TAG, "MainActivity created");
+        setContentView(R.layout.activity_frame);
 
-        Button frameLayout = findViewById(R.id.frame_layout);
-        frameLayout.setOnClickListener(new View.OnClickListener() {
+        Button button1 = findViewById(R.id.button11);
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, FrameActivity.class);
-                startActivity(intent);
+                finish();
             }
         });
-
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.hide(); //隐藏标题栏
         }
     }
-
 }
