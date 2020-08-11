@@ -19,15 +19,17 @@
 
 
     <Button
+        android:id="@+id/frame_layout"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:background="#D2D7DC"
-        android:text="@string/button2"
+        android:text="@string/frame_layout"
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="center"
