@@ -12,6 +12,6 @@
     <string name="button9">按钮9</string>
     <string name="button10">按钮10</string>
     <string name="android_practice">Android 练习</string>
-    <string name="frame_layout">frame_layout</string>
-    <string name="main_activity">main_activity</string>
+    <string name="frame_layout">FrameLayout 布局</string>
+    <string name="main_activity">主页</string>
 </resources>
